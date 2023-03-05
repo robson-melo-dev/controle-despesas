@@ -3,14 +3,16 @@ import AppReducer from './AppReducer';
 
 //State inicial
 
+const localStorageTransactions = JSON.parse(localStorage.getItem('transactions'))
+//let transactions = localStorage.getItem('transactions') != null ? localStorageTransactions : []
+
 const initialState = {
-  transactions: [    
-    { id: 5, text: "Supermercado", amount: -800 },
-    { id: 4, text: "Eletricidade", amount: -170 },
-    { id: 3, text: "Internet", amount: -90 },
-    { id: 2, text: "Água", amount: -90 },
-    { id: 1, text: "Salário", amount: 1800 },
-  ],
+  transactions: localStorage.getItem('transactions') != null ? localStorageTransactions.transactions :
+  [
+    { id: 3, text: "Supermercado", amount: -800 },
+    { id: 2, text: "Eletricidade", amount: -170 },
+    { id: 1, text: "Salário", amount: 1800 }
+  ]
 };
 
 //Cria o contexto

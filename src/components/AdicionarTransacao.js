@@ -17,6 +17,7 @@ export const AdicionarTransacao = () => {
 
     addTransaction(newTransaction);
     
+    
   }
   
 

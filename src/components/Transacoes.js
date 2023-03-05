@@ -5,6 +5,8 @@ import { Transacao } from "./Transacao";
 
 export const Transacoes = () => {
   const {transactions} = useContext(GlobalContext)
+  localStorage.setItem('transactions', JSON.stringify({transactions})) //armazena todas as transações na LocalStorage a cada mudança nas transações
+
 
   return (
     <>
