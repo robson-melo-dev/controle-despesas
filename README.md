@@ -4,4 +4,4 @@ Acesse o web app [aqui](https://robson-melo-dev.github.io/controle-despesas/).
 
 ## Preview
 
-[preview do web app em funcionamento] (public/controle-despesas-preview.png)
+<img src="/public/controle-despesas.PNG" width="350" title="preview web app">
