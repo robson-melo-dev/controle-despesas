@@ -5,13 +5,11 @@ import AppReducer from './AppReducer';
 
 const initialState = {
   transactions: [
-    { id: 1, text: "Salário", amount: 1500 },
-    { id: 2, text: "Ganho no jogo do bixo", amount: 150 },
-    { id: 3, text: "Itaipava", amount: -120 },
-    { id: 4, text: "Corote", amount: -50 },
-    { id: 5, text: "Carne", amount: -300 },
-    { id: 6, text: "Arroz", amount: -40 },
-    { id: 7, text: "Apostas jogo do bixo", amount: -300 }
+    { id: 1, text: "Salário", amount: 1800 },
+    { id: 3, text: "Supermercado", amount: -800 },
+    { id: 4, text: "Eletricidade", amount: -170 },
+    { id: 5, text: "Internet", amount: -90 },
+    { id: 6, text: "Água", amount: -90 }
   ],
 };
 
